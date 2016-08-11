@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     'comma-dangle': [2, 'always-multiline'],
     'eol-last': 2,
+    'eqeqeq': 2,
     'indent': [2, 2, {SwitchCase: 1}],
     'linebreak-style': [2, 'unix'],
     'no-console': [1, {allow: ['info', 'warn', 'error']}],

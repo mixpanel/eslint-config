@@ -12,6 +12,7 @@ module.exports = {
   },
 
   rules: {
+    'camelcase': [2, {'properties': 'always'}],
     'comma-dangle': [2, 'always-multiline'],
     'eol-last': 2,
     'eqeqeq': 2,

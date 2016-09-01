@@ -18,6 +18,7 @@ module.exports = {
     'eqeqeq': 2,
     'indent': [2, 2, {SwitchCase: 1}],
     'linebreak-style': [2, 'unix'],
+    'multiline-ternary': [2, 'never'],
     'no-console': [1, {allow: ['info', 'warn', 'error']}],
     'no-debugger': 1,
     'no-unused-expressions': 2,

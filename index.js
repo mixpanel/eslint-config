@@ -25,5 +25,6 @@ module.exports = {
     'no-use-before-define': [2, {classes: false}],
     'quotes': [2, 'single'],
     'semi': [2, 'always'],
+    'space-before-blocks': [2, 'always'],
   },
 };

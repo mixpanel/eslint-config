@@ -12,6 +12,7 @@ module.exports = {
   },
 
   rules: {
+    'arrow-parens': [2, 'as-needed'],
     'camelcase': [2, {'properties': 'always'}],
     'comma-dangle': [2, 'always-multiline'],
     'eol-last': 2,

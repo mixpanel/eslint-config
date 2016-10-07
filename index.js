@@ -24,7 +24,7 @@ module.exports = {
     'no-debugger': 1,
     'no-unused-expressions': 2,
     'no-use-before-define': [2, {classes: false}],
-    'quotes': [2, 'single'],
+    'quotes': [2, 'backtick'],
     'semi': [2, 'always'],
     'space-before-blocks': [2, 'always'],
   },

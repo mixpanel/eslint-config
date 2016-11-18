@@ -12,21 +12,49 @@ module.exports = {
   },
 
   rules: {
-    'arrow-parens': [2, 'as-needed'],
-    'camelcase': [2, {'properties': 'always'}],
-    'comma-dangle': [2, 'always-multiline'],
-    'comma-spacing': [2, {'before': false, 'after': true}],
-    'eol-last': 2,
-    'eqeqeq': 2,
-    'indent': [2, 2, {SwitchCase: 1}],
-    'linebreak-style': [2, 'unix'],
-    'multiline-ternary': [2, 'never'],
-    'no-console': [1, {allow: ['info', 'warn', 'error']}],
-    'no-debugger': 1,
-    'no-unused-expressions': 2,
-    'no-use-before-define': [2, {classes: false}],
-    'quotes': [2, 'backtick'],
-    'semi': [2, 'always'],
-    'space-before-blocks': [2, 'always'],
+    'arrow-parens': [
+      'error', 'as-needed',
+    ],
+    'camelcase': [
+      'error', {'properties': 'always'},
+    ],
+    'comma-dangle': [
+      'error', 'always-multiline',
+    ],
+    'comma-spacing': [
+      'error', {'before': false, 'after': true},
+    ],
+    'eol-last':
+      'error',
+    'eqeqeq':
+      'error',
+    'indent': [
+      'error', 2, {SwitchCase: 1},
+    ],
+    'linebreak-style': [
+      'error', 'unix',
+    ],
+    'multiline-ternary': [
+      'error', 'never',
+    ],
+    'no-console': [
+      'warn', {allow: ['info', 'warn', 'error']},
+    ],
+    'no-debugger':
+      'warn',
+    'no-unused-expressions':
+      'error',
+    'no-use-before-define': [
+      'error', {classes: false},
+    ],
+    'quotes': [
+      'error', 'backtick',
+    ],
+    'semi': [
+      'error', 'always',
+    ],
+    'space-before-blocks': [
+      'error', 'always',
+    ],
   },
 };

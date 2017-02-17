@@ -24,6 +24,7 @@ module.exports = {
     'indent':                      ['error', 2, {SwitchCase: 1}],
     'linebreak-style':             ['error', 'unix'],
     'multiline-ternary':           ['error', 'never'],
+    'no-multi-spaces':             ['error', {exceptions: {SwitchCase: true}}],
     'no-unused-expressions':       ['error'],
     'no-use-before-define':        ['error', {classes: false}],
     'object-shorthand':            ['error', 'always'],

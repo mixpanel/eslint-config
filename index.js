@@ -26,6 +26,7 @@ module.exports = {
     'multiline-ternary':           ['error', 'never'],
     'no-unused-expressions':       ['error'],
     'no-use-before-define':        ['error', {classes: false}],
+    'object-curly-spacing':        ['error', 'never'],
     'object-shorthand':            ['error', 'always'],
     'quotes':                      ['error', 'backtick'],
     'semi':                        ['error', 'always'],

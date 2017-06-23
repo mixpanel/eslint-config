@@ -29,6 +29,7 @@ module.exports = {
     'object-curly-spacing':        ['error', 'never'],
     'object-shorthand':            ['error', 'always'],
     'quotes':                      ['error', 'backtick'],
+    'radix':                       ['error'],
     'semi':                        ['error', 'always'],
     'space-before-blocks':         ['error', 'always'],
     'space-before-function-paren': ['error', 'never'],

@@ -1,10 +1,11 @@
 {
   "colons": "never",
-  "groupOutputByFile": true,
   "indentPref": 2,
-  "prefixVarsWithDollar": false,
+  "prefixVarsWithDollar": true,
   "quotePref": "single",
   "semicolons": "never",
   "sortOrder": "alphabetical",
-  "valid": false
+  "trailingWhitespace": "never",
+  "valid": false,
+  "zeroUnits": "never"
 }

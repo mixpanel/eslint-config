@@ -1,0 +1,11 @@
+{
+  "colons": "never",
+  "indentPref": 2,
+  "prefixVarsWithDollar": true,
+  "quotePref": "single",
+  "semicolons": "never",
+  "sortOrder": "alphabetical",
+  "trailingWhitespace": "never",
+  "valid": false,
+  "zeroUnits": "never"
+}

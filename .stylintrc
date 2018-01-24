@@ -8,5 +8,5 @@
   "sortOrder": "alphabetical",
   "trailingWhitespace": "never",
   "valid": false,
-  "zeroUnits": "always"
+  "zeroUnits": false
 }

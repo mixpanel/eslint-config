@@ -1,4 +1,5 @@
 {
+  "brackets": "never",
   "colons": "never",
   "indentPref": 2,
   "prefixVarsWithDollar": true,
@@ -7,5 +8,5 @@
   "sortOrder": "alphabetical",
   "trailingWhitespace": "never",
   "valid": false,
-  "zeroUnits": "never"
+  "zeroUnits": "always"
 }

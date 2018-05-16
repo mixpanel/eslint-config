@@ -26,7 +26,7 @@ module.exports = {
     'keyword-spacing':             [`error`],
     'linebreak-style':             [`error`, `unix`],
     'no-multi-spaces':             ['error', {exceptions: {Property: true }}],
-    'multiline-ternary':           [`error`, `always-multiline`],
+    'multiline-ternary':           [`error`, `never`],
     'no-trailing-spaces':          [`error`],
     'no-unused-expressions':       [`error`],
     'no-use-before-define':        [`error`, {classes: false}],

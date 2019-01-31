@@ -1,8 +1,9 @@
+// Rules documentation: https://palantir.github.io/tslint/rules/
 module.exports = {
   extends: `tslint:recommended`,
   defaultSeverity: `error`,
   rules: {
-    'array-type': [true, `generic`],
+    'array-type': [true, `array-simple`],
     'arrow-parens': false,
     'arrow-return-shorthand': true,
     'import-spacing': true,

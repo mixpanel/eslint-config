@@ -17,7 +17,7 @@ module.exports = {
     'no-invalid-template-strings': true,
     'only-arrow-functions': [false],
     'quotemark': [true, `single`, `avoid-escape`],
-    'semicolon': [true, `always`, `ignore-interfaces`],
+    'semicolon': [true, `always`],
     'switch-default': true,
   },
 };

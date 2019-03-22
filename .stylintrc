@@ -5,6 +5,7 @@
   "commentSpace": "always",
   "indentPref": 2,
   "leadingZero": "always",
+  "maxWarnings": 0,
   "mixed": true,
   "parenSpace": false,
   "prefixVarsWithDollar": true,

@@ -34,6 +34,7 @@ module.exports = {
     'object-shorthand':            [`error`, `always`],
     'quotes':                      [`error`, `backtick`],
     'semi':                        [`error`, `always`],
+    'sort-keys':                   [`error`, `never`],
     'space-before-blocks':         [`error`, `always`],
     'space-before-function-paren': [`error`, {anonymous: `never`, named: `never`, asyncArrow: `always`}],
   },

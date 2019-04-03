@@ -22,5 +22,6 @@ module.exports = {
     'quotemark': [true, `single`, `avoid-escape`],
     'semicolon': [true, `always`],
     'switch-default': true,
+    'object-literal-sort-keys': false,
   },
 };

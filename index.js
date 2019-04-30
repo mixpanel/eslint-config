@@ -12,8 +12,8 @@ module.exports = {
   },
 
   rules: {
-    'no-console':  [`warn`, {allow: [`info`, `warn`, `error`]}],
-    'no-debugger': [`warn`],
+    'no-console':                  [`warn`, {allow: [`info`, `warn`, `error`]}],
+    'no-debugger':                 [`warn`],
 
     'arrow-parens':                [`error`, `as-needed`],
     'camelcase':                   [`error`, {'properties': `always`}],
@@ -25,13 +25,15 @@ module.exports = {
     'key-spacing':                 ['error', {beforeColon: false, afterColon: true, mode: `minimum`}],
     'keyword-spacing':             [`error`],
     'linebreak-style':             [`error`, `unix`],
-    'no-multi-spaces':             ['error', {exceptions: {Property: true }}],
     'multiline-ternary':           [`error`, `never`],
+    'no-multi-spaces':             ['error', {exceptions: {Property: true }}],
     'no-trailing-spaces':          [`error`],
     'no-unused-expressions':       [`error`],
     'no-use-before-define':        [`error`, {classes: false}],
+    'no-var':                      [`error`],
     'object-curly-spacing':        [`error`, `never`],
     'object-shorthand':            [`error`, `always`],
+    'prefer-const':                [`error`, {destructuring: `all`, ignoreReadBeforeAssign: true}],
     'quotes':                      [`error`, `backtick`],
     'semi':                        [`error`, `always`],
     'sort-keys':                   [`off`],

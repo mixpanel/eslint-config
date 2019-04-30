@@ -33,7 +33,7 @@ module.exports = {
     'no-var':                      [`error`],
     'object-curly-spacing':        [`error`, `never`],
     'object-shorthand':            [`error`, `always`],
-    'prefer-const':                [`error`, {destructuring: `all`}],
+    'prefer-const':                [`error`, {destructuring: `all`, ignoreReadBeforeAssign: true}],
     'quotes':                      [`error`, `backtick`],
     'semi':                        [`error`, `always`],
     'sort-keys':                   [`off`],

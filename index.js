@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     'no-console':                  [`warn`, {allow: [`info`, `warn`, `error`]}],
     'no-debugger':                 [`warn`],
+
     'arrow-parens':                [`error`, `as-needed`],
     'camelcase':                   [`error`, {'properties': `always`}],
     'comma-dangle':                [`error`, `always-multiline`],

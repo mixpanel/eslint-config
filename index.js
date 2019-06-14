@@ -21,6 +21,7 @@ module.exports = {
     'comma-spacing':               [`error`, {'before': false, 'after': true}],
     'eol-last':                    [`error`],
     'eqeqeq':                      [`error`],
+    'interface-over-type-literal': [`off`],
     'indent':                      [`error`, 2, {SwitchCase: 1}],
     'key-spacing':                 ['error', {beforeColon: false, afterColon: true, mode: `minimum`}],
     'keyword-spacing':             [`error`],

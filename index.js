@@ -2,7 +2,7 @@
 const {NODE_ENV = `development`} = process.env;
 const WARN_IF_DEV = NODE_ENV === `development` ? `warn` : `error`;
 
-module.exports = {
+module.exports={
   env: {
     browser: true,
     es6: true,

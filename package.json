@@ -25,9 +25,21 @@
     "stylint": ">=1.5.0 <2.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "prettier": "1.19.1"
   },
   "dependencies": {
     "eslint-config-prettier": "6.10.0"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

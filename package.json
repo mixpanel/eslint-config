@@ -33,7 +33,7 @@
     "eslint-config-prettier": "6.10.0"
   },
   "lint-staged": {
-    "*.{js}": [
+    "*.js": [
       "prettier --write"
     ]
   },

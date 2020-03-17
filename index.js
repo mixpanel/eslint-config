@@ -17,6 +17,7 @@ module.exports = {
 
   rules: {
     'arrow-parens': [`error`],
+    camelcase: [`error`, {properties: `never`, ignoreDestructuring: true}],
     'comma-dangle': [`error`, `always-multiline`],
     'comma-spacing': [`error`, {before: false, after: true}],
     'eol-last': [`error`],
@@ -31,14 +32,7 @@ module.exports = {
     'no-prototype-builtins': [`off`],
     'no-trailing-spaces': [`error`],
     'no-unused-expressions': [`error`, {allowShortCircuit: true, allowTernary: true}],
-    'no-var': [`error`],
-    'object-curly-spacing': [`error`, `never`],
-    'object-shorthand': [`error`, `always`],
-    'prefer-const': [`error`, {destructuring: `all`, ignoreReadBeforeAssign: true}],
-    semi: [`error`, `always`],
-    'sort-keys': [`off`],
-    'space-before-blocks': [`error`, `always`],
-    'space-before-function-paren': [`error`, {anonymous: `never`, named: `never`, asyncArrow: `always`}],
+    'no-unused-vars': [`error`, {argsIgnorePattern: `^_`}],
     'no-use-before-define': [
       `error`,
       {
@@ -46,8 +40,14 @@ module.exports = {
         classes: false,
       },
     ],
-    'no-unused-vars': [`error`, {argsIgnorePattern: `^_`}],
-    camelcase: [`error`, {properties: `never`, ignoreDestructuring: true}],
+    'no-var': [`error`],
+    'object-curly-spacing': [`error`, `never`],
+    'object-shorthand': [`error`, `always`],
+    'prefer-const': [`error`, {destructuring: `all`, ignoreReadBeforeAssign: true}],
     quotes: [`error`, `backtick`],
+    semi: [`error`, `always`],
+    'sort-keys': [`off`],
+    'space-before-blocks': [`error`, `always`],
+    'space-before-function-paren': [`error`, {anonymous: `never`, named: `never`, asyncArrow: `always`}],
   },
 };

@@ -22,7 +22,7 @@
     "prettier": ">=1.19.0"
   },
   "optionalDependencies": {
-    "stylint": ">=1.5.0 <2.0.0"
+    "stylint": "2.0.0"
   },
   "devDependencies": {
     "husky": "4.2.3",

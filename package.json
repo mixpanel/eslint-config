@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-mixpanel",
   "description": "Mixpanel JavaScript style",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",

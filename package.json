@@ -25,7 +25,7 @@
     "stylint": "2.0.0"
   },
   "devDependencies": {
-    "husky": "4.2.3",
+    "husky": "4.3.8",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1"
   },
